@@ -1,0 +1,16 @@
+## Permissions taken from original init.rc
+/dev/nvrm		0666	root	root
+/dev/knvrm		0660	root	system
+/dev/nvrpc		0666	root	root
+/dev/nvmap		0666	root	root
+/dev/nvos		0666	root	root
+/dev/nvhost-ctrl	0666	root	root
+/dev/nvhost-display	0666	root	root
+/dev/nvhost-gr3d	0666	root	root
+/dev/nvhost-gr2d	0666	root	root
+/dev/nvhost-dsi		0666	root	root
+/dev/nvhost-isp		0666	root	root
+/dev/nvhost-mpe		0666	root	root
+/dev/nvhost-vi		0666	root	root
+/dev/ttyHS3		0777    system  radio
+/dev/ttyACM0		0666    radio  radio

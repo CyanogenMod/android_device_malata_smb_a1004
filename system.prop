@@ -1,0 +1,17 @@
+#
+# system.prop for smb_a1004
+#
+ro.additionalmounts=/mnt/emmc;/mnt/usbdisk
+ro.sf.lcd_density=161
+wifi.interface = wlan0
+wifi.supplicant_scan_interval = 45
+ro.opengles.version = 131072
+dalvik.vm.heapsize=32m
+rild.libpath=/system/lib/libmbm-ril.so
+rild.libargs=-d /dev/ttyACM0 -i usb0
+
+ro.com.google.locationfeatures=1
+ro.com.google.networklocation=1
+ro.setupwizard.enable_bypass=1
+keyguard.no_require_sim=true
+

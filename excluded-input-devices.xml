@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+	Description : this file should include all system input the devices 
+	that are not HCI devices such as mouse, touch-screen and keyboards.
+	Copyright (C) 2010 Malata Inc.
+-->
+
+<devices>
+  <device name="accelerometer"/>
+  <device name="light_sensor"/>
+  <device name="gyroscope_sensor"/>
+  <device name="dummy_sensor" />
+  <device name="temp_sensor"/>
+  <device name="gps_control"/>
+</devices>
